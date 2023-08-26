@@ -1,0 +1,38 @@
+/* navbar.styles.css */
+
+/* Style for the navigation bar */
+.navbar {
+    background-color: #f8f9fa; /* Set your desired background color */
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Style for the navigation links */
+.navbar-brand,
+.navbar-nav a.nav-link {
+    color: #333; /* Set your desired text color */
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.navbar-brand:hover,
+.navbar-nav a.nav-link:hover {
+    color: #007bff; /* Set your desired hover text color */
+}
+
+/* Style for the navbar toggler button */
+.navbar-toggler {
+    border: none;
+    background-color: transparent;
+}
+
+/* Style for the collapsed navigation links */
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+/* Style for the active navigation link */
+.nav-item.active .nav-link {
+    color: #007bff; /* Set your desired active link color */
+}
